@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#E7E4E4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+    android:src="@drawable/top"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"></ImageView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PassWord"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="365dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="Tên đăng nhập"
+        android:padding="10dp"
+        android:background="#CCC9D1"
+        android:inputType="textPersonName"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="125dp"/>
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="Mật khẩu"
+        android:padding="10dp"
+        android:background="#CCC9D1"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="350dp"/>
+   <Button
+       android:id="@+id/loginBtn"
+       android:text="LOGIN"
+       android:background="#ED5708B3"
+       android:textColor="#FBFBFF"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="420dp"
+       android:layout_marginLeft="100dp">
+   </Button>
+    <Button
+        android:id="@+id/signupBtn"
+        android:text="SIGNUP"
+        android:background="#ED5708B3"
+        android:textColor="#FBFBFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="230dp">
+    </Button>
+</RelativeLayout>
